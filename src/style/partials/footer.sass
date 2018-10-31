@@ -1,0 +1,35 @@
+// Footer
+
+.footer
+  padding: 25px 0
+  background-color: #f5f5f5
+  &__wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    
+.footer_wrap__item
+  p, a
+    color: #aaacaf
+    font-family: $font_PtSans
+    font-size: 13px
+    font-weight: 400
+    line-height: 24px
+    b
+      color: #787b80
+  ul
+    display: flex
+    align-items: center
+    li
+      margin-left: 15px
+      a
+        i
+          color: rgba(120, 123, 128, 0.51)
+          font-size: 20px
+          font-weight: 400
+          line-height: 24px
+          transition: 0.5s
+      &:hover
+        transition: 0.5s
+        i
+          color: $color_green

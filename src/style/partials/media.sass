@@ -1,0 +1,64 @@
+$r-615: 615px
+$r-992: 992px
+$r-1024: 1024px
+$r-1200: 1200px
+
+body
+  // break max-768
+  @media only screen and (max-width: $r-615)
+    .main_text
+      .title
+        font-size: 16px
+    .header
+      padding: 40px 0
+    .header_item
+      &__logo
+        margin-bottom: 20px
+      &__nav
+        margin-bottom: 20px
+      &__title
+        margin-bottom: 50px
+        .title
+          font-size: 36px
+          line-height: 1
+      &__text
+        flex-direction: column
+        margin-bottom: 50px
+        p
+          padding: 20px
+    .features_wrap,
+    .posts_wrap,
+    .articles_wrap,
+    .contact_wrap,
+    .themeforest_wrap,
+    .logo_wrap,
+    .footer_wrap
+      flex-direction: column
+      &__item
+        width: 345px
+        max-width: 100%
+        margin: 0 auto 30px auto
+        &:last-child
+          margin-bottom: 0
+    .template_item
+      width: 345px
+      max-width: 100%
+      margin: 0 auto
+    .themeforest_item
+      &:first-child,
+      &:nth-child(2)
+        width: 345px
+        img
+          width: 100%
+    .logo
+      &__title
+        .title
+          width: 345px
+    .logo_wrap
+      &__item
+        text-align: center
+    .footer_wrap
+      &__item
+        ul
+          li
+            margin: 0 15px 0 0

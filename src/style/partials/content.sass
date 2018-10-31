@@ -1,0 +1,253 @@
+// Features
+
+.features
+  padding: 65px 0
+  background-color: rgba(234, 234, 235, 0.6)
+  &__wrapper
+    display: flex
+    justify-content: space-between
+
+.features_item
+  text-align: center
+  img
+    height: 40px
+    margin-bottom: 32px
+  .title
+    display: flex
+    justify-content: center
+    padding-bottom: 21px
+    margin-bottom: 25px
+    position: relative
+    &:before
+      position: absolute
+      content: ''
+      bottom: 0
+      width: 135px
+      height: 2px
+      background-color: rgba(41, 49, 57, 0.07)
+  p
+    width: 165px
+    max-width: 100%
+    margin: 0 auto
+
+// Posts
+
+.posts
+  padding: 65px 0
+  &__wrapper
+    display: flex
+    justify-content: space-between
+
+.posts_item
+  width: 265px
+  max-width: 100%
+  img
+    width: 100%
+    margin-bottom: 42px
+  .title
+    padding-bottom: 23px
+    margin-bottom: 31px
+    position: relative
+    &:before
+      position: absolute
+      content: ''
+      bottom: 0
+      width: 100%
+      height: 2px
+      background-color: rgba(41, 49, 57, 0.07)
+      -webkit-mask-image: -webkit-gradient(linear,left top,right top,from(black),to(rgba(0,0,0,.05)))
+  p
+    margin-bottom: 34px
+  a
+    min-width: 98px
+    height: 35px
+    font-size: 14px
+    font-weight: 400
+    line-height: 24px
+    text-transform: none
+
+// Template
+
+.template
+  padding: 65px 0
+  background-color: rgba(234, 234, 235, 0.6)
+  &__item
+    .title
+      display: flex
+      align-items: center
+      font-size: 18px
+      font-weight: 700
+      line-height: 1
+      padding-bottom: 23px
+      margin-bottom: 26px
+      position: relative
+      i
+        font-size: 24px
+        color: #c6cbd1
+        margin-right: 15px
+      &:before
+        position: absolute
+        content: ''
+        bottom: 0
+        width: 100%
+        height: 2px
+        background-color: rgba(41, 49, 57, 0.07)
+        -webkit-mask-image: -webkit-gradient(linear,left top,right top,from(black),to(rgba(0,0,0,.05)))
+    p
+      margin-bottom: 38px
+    a
+      min-width: 98px
+      height: 35px
+      font-size: 14px
+      font-weight: 400
+      line-height: 24px
+      text-transform: none
+
+// Articles
+
+.articles
+  padding: 65px 0
+  &__wrapper
+    display: flex
+    justify-content: space-between
+
+.articles_item
+  width: 180px
+  max-width: 100%
+  img
+    width: 100%
+    margin-bottom: 41px
+  .title
+    position: relative
+    padding-bottom: 20px
+    margin-bottom: 26px
+    &:before
+      position: absolute
+      content: ''
+      bottom: 0
+      width: 100%
+      height: 2px
+      background-color: rgba(41, 49, 57, 0.07)
+  p
+    margin-bottom: 28px
+  a
+    color: #50c3af
+    font-family: $font_PtSans
+    font-size: 14px
+    font-weight: 400
+    line-height: 24px
+    transition: 0.5s
+    &:hover
+      transition: 0.5s
+      color: $color_title
+
+// Contact
+
+.contact
+  padding: 65px 0
+  background-color: rgba(234, 234, 235, 0.6)
+  &__wrapper
+    display: flex
+    justify-content: space-between
+
+.contact_item
+  width: 250px
+  max-width: 100%
+  .title
+    display: flex
+    align-items: center
+    font-size: 18px
+    font-weight: 700
+    line-height: 24px
+    position: relative
+    padding-bottom: 20px
+    margin-bottom: 26px
+    i
+      font-size: 20px
+      color: #c6cbd1
+      margin-right: 15px
+    &:before
+      position: absolute
+      content: ''
+      bottom: 0
+      width: 100%
+      height: 2px
+      background-color: rgba(41, 49, 57, 0.07)
+  p
+    margin-bottom: 36px
+  a
+    min-width: 98px
+    height: 35px
+    font-size: 14px
+    font-weight: 400
+    line-height: 24px
+    text-transform: none
+
+// Themeforest
+
+.themeforest
+  padding: 65px 0
+  &__wrapper
+    display: flex
+    justify-content: space-between
+
+.themeforest_item
+  &:first-child
+    width: 265px
+    max-width: 100%
+  &:nth-child(2)
+    width: 290px
+    max-width: 100%
+  .title
+    position: relative
+    font-size: 18px
+    padding-bottom: 23px
+    margin-bottom: 31px
+    &:before
+      position: absolute
+      content: ''
+      bottom: 0
+      width: 100%
+      height: 2px
+      background-color: rgba(41, 49, 57, 0.07)
+      -webkit-mask-image: -webkit-gradient(linear,left top,right top,from(black),to(rgba(0,0,0,.05)))
+  p
+    margin-bottom: 30px
+  a
+    min-width: 98px
+    height: 35px
+    font-size: 14px
+    font-weight: 400
+    line-height: 24px
+    text-transform: none
+
+// Logo
+
+.logo
+  padding: 65px 0
+  background-color: #50c3af
+  &__title
+    display: flex
+    align-items: center
+    justify-content: center
+    i
+      font-size: 18px
+      color: #fff
+      margin-right: 15px
+    .title
+      color: #fff
+      font-size: 18px
+      position: relative
+      padding-bottom: 20px
+      margin: 0 auto 40px auto
+      &:before
+        position: absolute
+        content: ''
+        bottom: 0
+        width: 100%
+        height: 2px
+        background-color: rgba(245, 245, 245, 0.11)
+  &__wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between

@@ -1,0 +1,66 @@
+// Header
+
+.header
+  background-repeat: no-repeat
+  background-size: cover
+  background-attachment: fixed
+  padding: 105px 0 120px 0
+
+.header_item
+  &__logo
+    text-align: center
+    margin-bottom: 47px
+    a
+      font-family: $font_Belinda
+      color: $color_white
+      font-size: 52px
+      font-weight: 400
+      line-height: 24px
+  &__nav
+    margin-bottom: 80px
+    ul
+      display: flex
+      justify-content: center
+      li
+        margin: 0 15px
+        a
+          color: $color_white
+          font-family: $font_OpenSans
+          font-size: 13px
+          font-weight: 400
+          line-height: 24px
+          text-transform: uppercase
+          transition: 0.5s
+          &:hover
+            transition: 0.5s
+            color: $color_green
+
+  &__title
+    text-align: center
+    margin-bottom: 43px
+    .title
+      color: $color_white
+      font-family: $font_Ubuntu
+      font-size: 53px
+      font-weight: 700
+      line-height: 24px
+      text-transform: uppercase
+  &__text
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 83px
+    p
+      color: $color_white
+      font-family: $font_PtSans
+      font-size: 15px
+      font-weight: 700
+      line-height: 24px
+      text-transform: uppercase
+      padding: 0 32px
+    span
+      width: 101px
+      height: 2px
+      background-color: rgba(255, 255, 255, 0.25)
+  &__btn
+    text-align: center
